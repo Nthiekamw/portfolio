@@ -1,0 +1,220 @@
+/*
+Theme Name: portfolio
+Author: esdras
+Description: Un thème des pattinettes.
+Version : 1.0
+*/
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style pour le header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+}
+
+/* Conteneur pour le logo et le nom du site */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Style pour le nom du site */
+.site-name {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Style pour le menu de navigation */
+nav ul {
+    list-style: none; /* Supprime les puces */
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Style pour les éléments du menu */
+nav ul li {
+    margin-left: 20px;
+}
+
+/* Style pour les liens */
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Style pour les liens au survol */
+nav ul li a:hover {
+    color: #ff6600; /* Change la couleur lors du survol */
+}
+
+
+/* Styles généraux */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style du footer */
+footer {
+    background-color: #007BFF; /* Couleur de fond bleue */
+    color: white;
+    padding: 20px;
+}
+
+/* Contenu du footer : Réseaux sociaux et contact */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 20px;
+}
+
+/* Réseaux sociaux à gauche */
+.social-media {
+    display: flex;
+    gap: 15px; /* Espacement entre les icônes */
+}
+
+.social-media img{
+    width: 30px;
+    height: 30px;
+}
+
+/* Informations de contact à droite */
+.contact-info {
+    text-align: right;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Bas du footer : mentions légales et copyright */
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid white;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.footer-bottom a {
+    color: rgb(243, 238, 238);
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+.social-media a {
+    font-weight: bold; /* Texte en gras */
+    color: black; /* Texte en noir */
+    text-decoration: black;
+    font-size: 18px; /* Taille de police ajustable */
+}
+/* Style des icônes des réseaux sociaux */
+.social-media {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-media a img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s;
+  }
+  
+  .social-media a img:hover {
+    transform: scale(1.1);
+  }
+
+
+
+  .logo img{
+        width: 100px;
+        height: 100px;
+    }
+
+  .logo{
+    display: flex;
+  }
+
+#showPdfButton{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px 10px;
+    color: #edeff5; /* Couleur du texte */
+    background-color: #146ce8;
+    cursor: pointer; /* Change le curseur en "main" sur le bouton */
+}
+
+.icon-btn-menu{
+    display: none;
+}
+
+.icon-btn-menu img{
+    width: 40px;
+    height: 40px;
+}
+
+/* Responsive Design pour mobile */
+@media(max-width: 768px) {
+    .footer-content {
+        display: block;
+    }
+    .social-media{
+        justify-content: center;
+    }
+
+    .contact-info{
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    .icon-btn-menu{
+        display: block;
+    }
+
+    #icon-close{
+        display: none;
+    }
+
+    .logo img{
+        width: 50px;
+        height: 50px;   
+    }
+    .logo h1{
+        font-size: 20px;
+    }
+}
+/* #pdfContainer{
+   
+     margin-top:10px;
+     margin-left: auto;
+     width:"400"
+      height="400"
+       border=none;
+} */
